@@ -206,7 +206,7 @@ body {
     align-self:center;
 }
 
-@media (max-width: 620px){
+@media (max-width: 800px){
     .container {
         display:block;
         width:100%;
@@ -226,7 +226,9 @@ body {
         height:fit-content !important;
         justify-content: center;
         align-items:center;
-        margin:20px;
+        margin:40px !important; 
+        padding:20px !important;
+        
     }
 
     #box3 #second{
@@ -241,4 +243,6 @@ body {
     #box6 img{
         align-self:center;
     }
+
+  
 }
